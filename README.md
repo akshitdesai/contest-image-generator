@@ -2,8 +2,14 @@
 Generate image from given data of competitve coding contest
 
 ## installation
-install imgkit to python and wkhtmltopdf to your system
-https://pypi.org/project/imgkit/
+1. [Install imgkit](https://pypi.org/project/imgkit/):
+`pip install imgkit`
+
+2. Install wkhtmltopdf:
+* for Debian/Ubuntu:`sudo apt-get install wkhtmltopdf`
+* for MacOSX: `brew install wkhtmltopdf`
+* for Windows and other options: check [wkhtmltopdf homepage](http://wkhtmltopdf.org/) for binary installers or [wiki page](https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF).
+
 
 ## Run
 run python code as:-
